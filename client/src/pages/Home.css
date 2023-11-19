@@ -1,0 +1,51 @@
+.Typewriter {
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+
+  color: "white";
+}
+.OuterBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  background: #0f2027; /* fallback for old browsers */
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  color: aliceblue;
+  min-height: 100vh;
+  justify-content: space-evenly;
+  margin-top: 1px;
+}
+.btn {
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  padding: 5px;
+  color: aliceblue;
+  transition: font-weight 0.3s ease;
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+}
+.btn:hover {
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  padding: 5px;
+  color: rgb(223, 239, 192);
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  cursor: pointer;
+  font-weight: 900;
+}
+.inputBoxForJSON {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.inputBoxForJSON textarea {
+  height: 40vh;
+  width: 50vw;
+  padding: 10px;
+}

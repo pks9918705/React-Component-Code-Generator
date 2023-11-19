@@ -1,0 +1,74 @@
+.history-list{
+    
+    list-style: none;
+    background-color: rgb(231, 231, 231);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height:100px
+    
+
+    
+}
+.homeBtn{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 900;
+    
+}
+.homeBtn:hover{
+    border: 2px solid rgb(199, 199, 199);
+    color: blanchedalmond;
+    border-radius: 5px;
+    font-weight: 900;
+
+}
+card{
+    /* border: 2px solid saddlebrown; */
+    
+    color: black;
+     
+}
+.time{
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    justify-content: end;
+}
+.history{
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #0f2027; /* fallback for old browsers */
+    background: linear-gradient(to right,#2c5364, #203a43, #0f2027);
+}
+
+.list{
+    background-color: white;
+    color: #0f2027;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 60vw;
+    transition: width 0.3s ease;
+    list-style: none;
+}
+.list:hover{
+    /* position: absolute; */
+    background-color: rgb(228, 227, 227);
+    color: #000507;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 70vw;
+}
+ul-list{
+    
+}

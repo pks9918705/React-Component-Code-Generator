@@ -1,0 +1,79 @@
+.navTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #0f2027; /* fallback for old browsers */
+    background: linear-gradient(to right,#2c5364, #203a43, #0f2027);
+    padding: 10px;
+     
+}
+
+.navRight{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    color: white;
+    cursor:pointer;
+
+}
+.border{
+    border: 2px solid rgb(220, 220, 220);
+    padding: 9px;
+    border-radius: 10px;
+}
+ion-icon{
+
+    color: rgb(255, 255, 255);
+   
+ 
+}
+.userpic{
+    font-size: 35px;
+}
+
+.History{
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.History:hover{
+    color: white;
+    padding: 10px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.History img{
+    width: 30px;
+    color: white;
+     
+}
+
+.btn2 {
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: 5px;
+    color: aliceblue;
+    text-decoration: none;
+    transition: font-weight 0.3s ease;
+    background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  }
+  .btn2:hover {
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: 5px;
+    color: rgb(210, 220, 189);
+    background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+    cursor: pointer;
+    font-weight: 900;
+  }

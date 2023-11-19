@@ -1,0 +1,45 @@
+.signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding-top: 18px;
+    background: #0f2027; /* fallback for old browsers */
+    background: linear-gradient(to right,#2c5364, #203a43, #0f2027);
+    color: aliceblue;
+    min-height: 100vh;
+}
+.signup input{
+    padding: 10px;
+    font-size: 25px;
+}
+.signup h3{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+.signup h3:hover{
+    border: 2px solid rgb(224, 223, 223);
+    color: bisque;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+#register-btn{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 1.5rem;
+color: aliceblue;
+    background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+    
+}
+#register-btn:hover{
+    cursor: pointer;
+    color: rgb(238, 239, 181);
+    border-radius: 10px;
+    padding: 5px;
+}
